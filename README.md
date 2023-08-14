@@ -49,6 +49,13 @@ Run test
   npm test
 ```
 
+Dcoker Run
+
+```bash
+  docker build -t news-api .
+  docker run -dp 3000:3000 --name news-api news-api
+```
+
 
 ## API Reference
 
